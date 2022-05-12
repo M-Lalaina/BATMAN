@@ -1,0 +1,148 @@
+@font-face {
+    font-family: "rajdhani";
+    src: url(/assets/fonts/Rajdhani-Medium.ttf);
+}
+
+@font-face {
+    font-family: "grotesk_regular";
+    src: url(/assets/fonts/SpaceGrotesk-Regular.ttf);
+}
+
+@font-face {
+    font-family: "grotesk_bold";
+    src: url(/assets/fonts/SpaceGrotesk-Bold.ttf);
+}
+
+/* !GENERALS RULES */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    padding: 0 7%;
+}
+
+.border_lat {
+    border-right: 3px solid #ffffff25;
+    border-left: 3px solid #ffffff25;
+}
+
+.text_justify {
+    text-align: justify;
+}
+
+body {
+    background-color: #000000;
+}
+
+h1 {
+    font-family: "rajdhani";
+}
+
+p {
+    font-family: "grotesk_regular";
+}
+
+/* ?==================== HEADER ======================*/
+
+header {
+    background: url(/assets/illustrations/Home/Bathome1.png) no-repeat;
+    background-size: contain;
+}
+
+header,
+main,
+footer {
+    padding: 0 7%;
+}
+
+header nav {
+    border-bottom: 4px solid #ffffff25;
+}
+
+header nav ul li > .nav-link {
+    font-family: "rajdhani";
+    font-size: 36px;
+    color: #ffffff;
+}
+
+header .nav-link:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+header .header_part_2 {
+    padding-top: 22%;
+    padding-bottom: 20%;
+}
+header .header_part_2 .header__p {
+    width: 55%;
+}
+
+header .icons__1 {
+    position: relative;
+}
+
+#header_icons {
+    position: absolute;
+    left: 0;
+    bottom: 250px;
+    left: 96%;
+}
+
+figure {
+    text-align: center;
+}
+
+.btn_home {
+    width: 65%;
+}
+
+button {
+    width: 95%;
+    padding: 22px 45px;
+    border: none;
+    background: linear-gradient(
+        90deg,
+        rgba(237, 222, 191, 0.5),
+        rgba(137, 0, 8, 0.5) 60%
+    );
+
+    font-family: "rajdhani";
+}
+
+/* ?MAIN CONTENT */
+
+main section div > .ciné {
+    padding: 15% 0 8% 0;
+    width: 90%;
+}
+
+#slider_section {
+    background: url(../illustrations/Home/Batslider1.png) no-repeat center;
+    background-size: contain;
+}
+
+.slider {
+    margin: 0 7%;
+    padding: 5% 0;
+}
+
+#slider_home_1 {
+    padding: 25% 0;
+}
+
+/* ?==================== MAIN ======================*/
+.multimédias_panel {
+    background: linear-gradient(
+        120deg,
+        rgba(237, 222, 191, 0.56),
+        rgba(25, 88, 125, 0.56)
+    );
+    width: 65%;
+    border-radius: 20px;
+}
+
+/* ?==================== FOOTER ======================*/
