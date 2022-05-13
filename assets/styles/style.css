@@ -35,14 +35,11 @@
 
 body {
     background-color: #000000;
+    font-family: "grotesk_regular";
 }
 
 h1 {
     font-family: "rajdhani";
-}
-
-p {
-    font-family: "grotesk_regular";
 }
 
 /* ?==================== HEADER ======================*/
@@ -77,6 +74,7 @@ header .header_part_2 {
     padding-top: 22%;
     padding-bottom: 20%;
 }
+
 header .header_part_2 .header__p {
     width: 55%;
 }
@@ -135,6 +133,7 @@ main section div > .ciné {
 }
 
 /* ?==================== MAIN ======================*/
+
 .multimédias_panel {
     background: linear-gradient(
         120deg,
@@ -143,6 +142,30 @@ main section div > .ciné {
     );
     width: 65%;
     border-radius: 20px;
+}
+
+.forms_section {
+    background: linear-gradient(
+        120deg,
+        rgba(237, 222, 191, 0.56),
+        rgba(25, 88, 125, 0.56)
+    );
+}
+
+.forms_section form {
+    display: grid;
+    gap: 2.5rem;
+    width: 65%;
+    margin: 3.5rem auto 0 auto;
+}
+
+.form__group input[type="text"] {
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.33);
+    padding-bottom: 5px;
 }
 
 /* ?==================== FOOTER ======================*/
