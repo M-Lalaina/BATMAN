@@ -168,8 +168,6 @@ main section div > .ciné {
   padding-bottom: 5px;
 }
 
-/* ?==================== FOOTER ======================*/
-
 .btn {
   border: none;
   color: inherit;
@@ -199,11 +197,12 @@ main section div > .ciné {
   font-size: 2rem;
   transition: all 0.3s;
 }
+
 .btn-primary:hover {
   background-image: linear-gradient(
     90deg,
-    rgba(237, 222, 191, 0.8),
-    rgba(137, 0, 8, 0.8) 60%
+    rgba(237, 222, 191, 0.78),
+    rgba(137, 0, 8, 0.78) 60%
   );
 }
 
@@ -224,6 +223,7 @@ main section div > .ciné {
     rgba(25, 88, 125, 1)
   );
 }
+
 .gradient-btn span {
   display: grid;
   place-items: center;
